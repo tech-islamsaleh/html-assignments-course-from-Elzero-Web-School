@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Meta tags. -->
+  <meta charset="UTF-8" />
+  <meta name="author" content="Islam" />
+  <meta name="copyright" content="Geeks" />
+  <meta name="description" content="Adding video to website" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title. -->
+  <title>Video</title>
+  <!-- Styling. -->
+  <style></style>
+  <!-- JavaScript code. -->
+  <script></script>
+  <!-- External CSS files. -->
+  <link rel="stylesheet" href="" />
+ </head>
+ <body>
+  <video controls muted poster="assets/images/selena-gomez.jpeg" width="80%">
+   <source src="assets/videos/it-ain't-me.mp4" type="video/mp4" />
+   <!-- <source src="assets/videos/it-ain't-me.ogg" type="video/ogg" /> -->
+   <!-- <source src="assets/videos/it-ain't-me.mkv" type="video/mkv" /> -->
+
+   <track src="ar.vtt" kind="subtitles" srclang="ar" label="Arabic" />
+   <track src="en.vtt" kind="subtitles" srclang="en" label="English" />
+
+   Your browser does not support video tag.
+  </video>
+ </body>
+</html>
