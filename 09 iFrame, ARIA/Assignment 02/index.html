@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Meta tags. -->
+  <meta charset="UTF-8" />
+  <meta name="author" content="Islam" />
+  <meta name="copyright" content="Geeks" />
+  <meta name="description" content="Accessible Rich Internet Applications" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title. -->
+  <title>ARIA</title>
+  <!-- Styling. -->
+  <style></style>
+  <!-- JavaScript code. -->
+  <script></script>
+  <!-- External CSS files. -->
+  <link rel="stylesheet" href="" />
+ </head>
+ <body>
+  <div class="choose-skill">
+   <div
+    class="skill"
+    role="checkbox"
+    aria-checked="true"
+    tabindex="0"
+    aria-labelledby="one"
+   >
+    Python
+   </div>
+   <label id="one">Skill One</label>
+
+   <div class="skill" role="checkbox" tabindex="0" aria-labelledby="two">
+    PHP
+   </div>
+   <label id="two">Skill Two</label>
+
+   <div class="skill" role="checkbox" tabindex="0" aria-labelledby="three">
+    JavaScript
+   </div>
+   <label id="three">Skill Three</label>
+  </div>
+ </body>
+</html>
